@@ -1,0 +1,24 @@
+# Configuration file for PALM.
+# Version alpha119, running in MATLAB 9.5.0.944444 (R2018b).
+# 11-Jun-2024 04:20:07
+
+-i /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/FirstLevel_results/N26_CIFTI_nofilm_uS4/cope2_Shock_Pain_over_Null/N26_cope2_Shock_Pain_over_Null_uS4_Lcortex.func.gii
+-i /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/FirstLevel_results/N26_CIFTI_nofilm_uS4/cope2_Shock_Pain_over_Null/N26_cope2_Shock_Pain_over_Null_uS4_Rcortex.func.gii
+-d /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/GroupLevel_results/N26_CIFTI_nofilm_uS4/palm_files/all_dmAge_dmSex.mat
+-t /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/GroupLevel_results/N26_CIFTI_nofilm_uS4/palm_files/onesample_pos_neg_2_cov.con
+-s /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/Surface_files/N26_Surface_files_MSMAll/mean_L_midthickness_MSMAll_Dedrift_32k_fs_LR.surf.gii /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/Surface_files/N26_Surface_files_MSMAll/mean_L_midthick_MSMAll_Dedrift_va.func.gii
+-s /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/Surface_files/N26_Surface_files_MSMAll/mean_R_midthickness_MSMAll_Dedrift_32k_fs_LR.surf.gii /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/Surface_files/N26_Surface_files_MSMAll/mean_R_midthick_MSMAll_Dedrift_va.func.gii
+-o /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/GroupLevel_results/N26_CIFTI_nofilm_uS4/all_xASdm_Shock/palm_all_xASdm_Shock_Pain_over_Null_N26_MSMAll_uS4_Bcortex_n1000
+-subjidx /sc/arion/projects/adolpvs/ePain/Workbench_Analysis/GroupLevel_results/N26_CIFTI_nofilm_uS4/palm_files/index_all.csv
+-ise
+-n 1000
+-corrcon
+-corrmod
+-T
+-tfce2D
+-logp
+-fdr
+-savedof
+-savemetrics
+-saveglm
+-precision double
