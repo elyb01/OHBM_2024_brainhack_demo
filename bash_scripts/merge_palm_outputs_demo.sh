@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Combine cortical .gii and subcortical .nii outputs from PALM into scalar cifti file
+# Combine cortical .gii and subcortical .nii outputs from PALM into scalar cifti files and set name to something helpful in the metadata
 
 home='/Users/ely/Desktop/data_local/VG/OHBM_2024_brainhack_demo'
 
